@@ -56,25 +56,27 @@ Labs are due on Mondays. Make sure this page is linked to on your main class hub
 
 ## Part A. Plan 
 
-To stage the interaction with your interactive device, think about:
-
-_Setting:_ Where is this interaction happening? (e.g., a jungle, the kitchen) When is it happening?
-
-_Players:_ Who is involved in the interaction? Who else is there? If you reflect on the design of current day interactive devices like the Amazon Alexa, it’s clear they didn’t take into account people who had roommates, or the presence of children. Think through all the people who are in the setting.
-
-_Activity:_ What is happening between the actors?
-
-_Goals:_ What are the goals of each player? (e.g., jumping to a tree, opening the fridge). 
-
 The interactive device can be anything *except* a computer, a tablet computer or a smart phone, but the main way it interacts needs to be using light.
 **Describe your setting, players, activity and goals here.**
 
+_Setting:_ This interaction happens on a work desk, when the user is concentrated on working and forgets to drink water on a regular basis.
+
+_Players:_ Since water bottle is generally personal, the individual who owns this device will be involved in the interaction.
+
+_Activity:_ when the device is on, the water bottle would remind the user hourly to drink water by having the light blinking. The light stops blinking when the water in the bottle decreases.
+
+_Goals:_ Help the users to stay hydrated. The user would pick up the water bottle and drink water.
+
 Sketch a storyboard of the interactions you are planning. It does not need to be perfect, but must get across the behavior of the interactive device and the other characters in the scene. 
 **Include a picture of your storyboard here**
+![Storyboard](https://github.com/sonipapa/Interactive-Lab-Hub/blob/Spring2021/Lab%201/storyboard-mug.png)
 
 Present your idea to the other people in your breakout room. You can just get feedback from one another or you can work together on the other parts of the lab.
 **Summarize feedback you got here.**
 
+  * Instead of a smart bottle, make it a smart mug would be more suitable for the setting & goals. User who works on a desk does not need the water container to be portable, and if it needs to incorporate light, the battery size would reduce the portability.
+
+  * Make the time interval of the reminder customizable instead of “one hour.”
 
 ## Part B. Act out the Interaction
 
@@ -82,8 +84,11 @@ Try physically acting out the interaction you planned. For now, you can just pre
 
 **Are there things that seemed better on paper than acted out?**
 
+No. Things that physically acted out are pretty similar to things I've planned for, because they are simple interactions.
+
 **Are there new ideas that occur to you or your collaborators that come up from the acting?**
 
+Instead of having the light blinking, glowing might be a better choice.
 
 ## Part C. Prototype the device
 
