@@ -98,15 +98,20 @@ Code for the "Tinkerbelle" tool, and instructions for setting up the server and 
 
 We invented this tool for this lab! 
 **Give us feedback on Tinkerbelle.**
+It worked great on my phone & computer. The instruction for setup was pretty simple to follow.
 
 ## Part D. Wizard the device
 Take a little time to set up the wizarding set-up that allows for someone to remotely control the device while someone acts with it. Hint: You can use Zoom to record videos, and you can pin someone’s video feed if that is the scene which you want to record. 
 
 **Include your first attempts at recording the set-up video here.**
 
+https://youtu.be/j0VEhxGwew4
+
 Now, hange the goal within the same setting, and update the interaction with the paper prototype. 
 
 **Show the follow-up work here.**
+
+The first attempt is enough for the interaction.
 
 ## Part E. Costume the device
 
@@ -116,12 +121,19 @@ Think about the setting of the device: is the environment a place where the devi
 
 **Include sketches of what your device might look like here.**
 
+![Sketch](https://github.com/sonipapa/Interactive-Lab-Hub/blob/Spring2021/Lab%201/sketch-mug.png)
+
 **What concerns or opportunitities are influencing the way you've designed the device to look?**
 
+* The device is a mug and has to be able to hold water as a normal mug no matter it's on or off, so it's designed to look alike a mug with the electronics (light/switch/charging port/battery etc.) at the bottom. 
+* The material of the mug is transparent because this would maximize the light intensity as the whole device and even the liquid inside would glow when it's reminding the user. 
+* The device is determined to have a simple design, considering that the weight should be as light as possible for the user to pick the mug up easily even when it's filled full.
 
 ## Part F. Record
 
 **Take a video of your prototyped interaction.**
+
+
 
 **Please indicate anyone you collaborated with on this Lab.**
 Be generous in acknowledging their contributions! And also recognizing any other influences (e.g. from YouTube, Github, Twitter) that informed your design. 
