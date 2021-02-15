@@ -138,6 +138,8 @@ https://youtu.be/PFODAyHr0_4
 **Please indicate anyone you collaborated with on this Lab.**
 Be generous in acknowledging their contributions! And also recognizing any other influences (e.g. from YouTube, Github, Twitter) that informed your design. 
 
+I was in the breakout room with Yimeng Sun, Wenqing Tang, Renzhi Hu, and Panda Xu for part 1 of this lab. They all gave me insightful advice on my initial plan and their feedbacks were summarized in Part A.
+
 # Staging Interaction, Part 2 
 
 This describes the second week's work for this lab activity.
