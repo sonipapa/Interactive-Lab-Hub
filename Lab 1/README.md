@@ -151,6 +151,36 @@ You will be assigned three partners from another group. Go to their github pages
 
 **Summarize feedback from your partners here.**
 
+I was in the group with Renzhi Hu, Panda Xu, Wenqing Tang, and Yimeng Sun. Their feedback is down below.
+
+Renzhi Hu:
+> What’s happening: A mug with a light that reminds the user to drink water every one hour. The light will keep on until the user picks up the mug and the water level decreases. 
+> 
+> The scene and the goals of the character: 
+> * Scene: in an office, classroom, or other working environment
+> * Goal: to be reminded to drink water regularly (every one hour)
+>
+> Anything that wasn’t clear: What happens if the mug isn’t being used and doesn’t have water in it? Is it possible to manually control the reminder/light?
+
+Panda Xu:
+> I really like your idea of reminding people to drink water because sometimes I forget to drink water when I am buying in doing stuff. In the video, I saw that the smart mug was sitting on the user's desk and it appeared dark. When the clock hit 9 am, the smart mug turned yellow to remind the user to drink water. Even though the user picked the mug up and put it back down, the light didn't go off because the mug judged based on the water level. After the user drank the water, the light went off. 
+>
+> The goal of the character is to be able to drink water regularly and her smart mug does its job very well. 
+> 
+> Electronics are very sensitive to water so one thing that I could crit on is how could you isolate the electronic parts from the water to prevent water damage to electronic parts?
+
+Wenqing Tang:
+> In the storyboard, the light won't be turned off if the user only picks the mug up without drinking it, I understand the setting reason for this, but what will happen if the user add more water, pour the fluid out to change to another drink, etc.? How could the device determine whether lowering the fluid is because the user drank it, or something else? I think it will be nice if you explain more about this.
+> 
+> I saw there's charge port and battery in the design sketch, I'm wondering if there be a low battery indicator and/or if it will be combined with the light.
+> 
+> The final video is really nice :)
+
+Yimeng Sun:
+> The interaction is well-done, but I am not sure about some parts of your design:
+> * I like that the light stop when the water level is low, but instead of a water level sensor, does a weight sensor makes things easier?
+> * From your sketch, the LED light is at the bottom of the mug. Will the user still be able to see it when they do not see the mug from the top?
+
 ## Make it your own
 
 Do last week’s assignment again, but this time: 
