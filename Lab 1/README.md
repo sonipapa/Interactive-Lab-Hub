@@ -96,7 +96,11 @@ You will be using your smartphone as a stand-in for the device you are prototypi
 
 Code for the "Tinkerbelle" tool, and instructions for setting up the server and your phone are [here](https://github.com/FAR-Lab/tinkerbelle).
 
+<<<<<<< HEAD
 We invented this tool for this lab!
+=======
+We invented this tool for this lab! 
+>>>>>>> c5b40479b8d26a6fbbf4e93e19c6d9cc04e7c7b9
 
 If you run into technical issues with this tool, you can also use a light switch, dimmer, etc. that you can can manually or remotely control.
 
@@ -192,6 +196,7 @@ Do last week’s assignment again, but this time:
 3) We will be grading with an emphasis on creativity. 
 
 **Document everything here. (Particularly we'd like to see the storyboard and video, although photos of the prototype are also great.)**
+<<<<<<< HEAD
 
 Besides *light*, I also used *sound* as a medium for interaction in this part of the lab, in order to make the reminder more noticeable for users who's not sensitive to light. Instead of comparing the water level to check whether the user actually drinks water, weight sensor will be used this time to eliminated the error caused by water level fluctuation. Considering possible water damage to the electronics during usage and the possiblity that people wash the mug in a dishwasher, I also made a structural change in the design. The mug and the actual device are seperate parts now. All the electronics are designed to be fitted in a circular pan (something looks like a wireless charger), and the user could use their own mug and put it on top of the device. It's also designed to be able to connect to wireless headphone through bluetooth so that users who use this device in a shared space can hear the ringtone without interrupting others.
 
@@ -205,3 +210,5 @@ When it's time to drink water, the smart mug will not only glow yellow but also 
 
 **A video of the prototyped interaction:**
 https://youtu.be/Xfr5tSWzrFs
+=======
+>>>>>>> c5b40479b8d26a6fbbf4e93e19c6d9cc04e7c7b9
