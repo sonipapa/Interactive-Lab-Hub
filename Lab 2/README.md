@@ -138,6 +138,9 @@ You can look in `stats.py` for how to display text on the screen
 
 You can look in `image.py` for an example of how to display an image on the screen. Can you make it switch to another image when you push one of the buttons?
 
+I modified `image.py` and saved it as `image-new.py` in this folder to make it switch to another image `pikachu.png` when push either one of the buttons. The demo is as below:
+
+![image-switch-vid.GIF](https://github.com/sonipapa/Interactive-Lab-Hub/blob/Spring2021/Lab%202/image-switch-vid.GIF)
 
 
 ## Part D. 
@@ -145,6 +148,9 @@ You can look in `image.py` for an example of how to display an image on the scre
 
 In `screen_clock.py`. Show the time by filling in the while loop. You can use the code in `cli_clock.py` and `stats.py` to figure this out.
 
+Please check `screen_clock.py` for the code. The demo is as below:
+
+![screen-clock-setup.GIF](https://github.com/sonipapa/Interactive-Lab-Hub/blob/Spring2021/Lab%202/screen-clock-setup.GIF)
 
 ## Part E.
 ## Modify the barebones clock to make it your own
@@ -154,6 +160,19 @@ Does time have to be linear?  How do you measure a year? [In daylights? In midni
 Can you make time interactive? You can look in `screen_test.py` for examples for how to use the buttons.
 
 **A copy of your code should be in your Lab 2 Github repo.**
+
+Time in seconds is centered on the screen. Information of weather, location, temperature, and time in minutes are shown in the screen when push the top button. If the top button is released, this information page will still be showing on the screen for 3 seconds before the "Time in seconds" page is shown again.
+
+I referred to the tutorial [Raspberry Pi E-Ink Weather Station using Python](https://learn.adafruit.com/raspberry-pi-e-ink-weather-station-using-python) By [M. LeBlanc-Williams](https://learn.adafruit.com/users/MakerMelissa) for acquiring and showing information of weather, location and temperature, and referred to `screen_test.py` for using the buttons.
+
+Codes are in files `modified_clock.py`, `weather_graphics.py`, and `meteocons.ttf`.
+
+Run the following command in terminal to get my clock working:
+
+```
+(circuitpython) pi@ixe00:~/Interactive-Lab-Hub/Lab\ 2 $ python modified_clock.py 
+```
+
 
 you can push to your personal github repo by adding the files here, commiting and pushing.
 
@@ -169,9 +188,11 @@ After that git will ask you to login to your github account to upload.
 ## Make a short video of your modified barebones PiClock
 
 **Take a video of your PiClock.**
+[![Video of PiClock](https://img.youtube.com/vi/Qh0kQEShWUY/maxresdefault.jpg)](https://youtu.be/Qh0kQEShWUY)
+
+(click the pic above to watch the video)
 
 ## Part G. 
 ## Sketch and brainstorm further interactions and features you would like for your clock for Part 2.
 
-
-
+For Part 2, I'm thinking to add two features by using the bottom button solely and by using both bottom and top buttons. One of the feature may be a stopwatch or world clock. The other feature may be a torch (flashlight) for use in emergency.
