@@ -212,3 +212,31 @@ Modify the code from last week's lab to make a new visual interface for your new
 As always, make sure you document contributions and ideas from others explicitly in your writeup.
 
 You are permitted (but not required) to work in groups and share a turn in; you are expected to make equal contribution on any group work you do, and N people's group project should look like N times the work of a single person's lab. What each person did should be explicitly documented. Make sure the page for the group turn in is linked to your Interactive Lab Hub page. 
+
+**Documentation**
+
+In this part of the lab, the clock is modified to an astrology clock that give one's horoscope of the day based on user input of his/her birthday. Time in seconds is centered on the main screen when no buttons are pressed, with one's Zodiac sign decided from user input. 
+
+*Press top button*: Information of weather, location, temperature, and time in minutes are shown in the screen. If the top button is released, this information page will still be showing on the screen for 3 seconds before the "Time in seconds" page is shown again.
+
+*Press bottom button:* Horoscope of the day is shown for this Zodiac sign, with lucky number, lucky time, lucky color, mood, and compatible sign listed. The main screen is shown when bottom button is released.
+
+*Press both buttons:* Description of the day for this Zodiac sign, with the color of text changing in seconds. 
+
+I referred to the tutorial [Raspberry Pi E-Ink Weather Station using Python](https://learn.adafruit.com/raspberry-pi-e-ink-weather-station-using-python) by [M. LeBlanc-Williams](https://learn.adafruit.com/users/MakerMelissa) for acquiring and showing information of weather, location and temperature, and referred to `screen_test.py` for using the buttons. The horoscope and description of the day is acquired from [PyAztro](https://github.com/sameerkumar18/pyaztro), a client library of [aztro - The astrology API](https://github.com/sameerkumar18/aztro) by [Sameer Kumar](https://sameerkumar.website/). The background images for the horoscope screen are in the folder `zodiac_sign` and made by myself modifying [this picture](https://dribbble.com/shots/7307789-Zodiac-Signs).
+
+Codes are in files `modified_clock_part2.py`, `weather_graphics.py`, and `meteocons.ttf`, and images are in the folder `zodiac_sign`.
+
+If you haven't downloaded the [PyAztro API](https://github.com/sameerkumar18/pyaztro), please run the following command in terminal:
+```
+(circuitpython) pi@ixe00:~/Interactive-Lab-Hub/Lab\ 2 $ pip install pyaztro
+```
+
+Run the following command in terminal to get my clock working:
+```
+(circuitpython) pi@ixe00:~/Interactive-Lab-Hub/Lab\ 2 $ python modified_clock_part2.py 
+```
+
+[![Video of PiClock for Part 2](https://img.youtube.com/vi/eMoMnk90PgU/maxresdefault.jpg)](https://youtu.be/eMoMnk90PgU)
+
+(click the pic above to watch the video)
