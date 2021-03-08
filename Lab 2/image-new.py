@@ -93,9 +93,9 @@ while True:
     else:
         backlight.value = True  # turn on backlight
     if buttonB.value and not buttonA.value:  # just button A pressed
-        image = Image.open("pikachu.png") # open pickachu.jpg
+        image = Image.open("pikachu.png").convert('RGB') # open pickachu.jpg
     if buttonA.value and not buttonB.value:  # just button B pressed
-        image = Image.open("pikachu.png") # open pickachu.jpg
+        image = Image.open("pikachu.png").convert('RGB') # open pickachu.jpg
     # Scale the image to the smaller screen dimension
     image_ratio = image.width / image.height
     screen_ratio = width / height
