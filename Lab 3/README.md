@@ -68,9 +68,19 @@ Create a system that runs on the Raspberry Pi that takes in one or more sensors 
 
 1. Sketch ideas for what you'll work on in lab on Wednesday.
 
+My idea is a **Not So Accurate Lie Detector**. When the participant presses the button sensor and says something/answers a question, audio would be streamed from the Pi to my browser. I will then tell the Pi whether it's a lie by my wish, so that the Pi would give the feedback from me the wizard to the participant.
+
 ## Share your idea sketches with Zoom Room mates and get feedback
 
 *what was the feedback? Who did it come from?*
+
+My zoom roommates are Yimeng Sun, Renzhi Hu, Zhonghao Zhan, Panda Xu, Yuanhao Chu, and Yanjun Zhou. They all agreed that my idea is a feasible system and I could start working on it.
+Yimeng Sun: It's not "Not So Accurate." Still have 50% chance to be acccurate.
+Renzhi Hu: Maybe let the Pi speak to the participant for giving feedback.
+Zhonghao Zhan: Maybe could try to use a pulse sensor to actually detect if it's a lie.
+Panda Xu: Or maybe give red light for lies, green light for truth.
+Yuanhao Chu: Sounds cool. It should be working.
+Yanjun Zhou: Sounds feasible.
 
 ## Prototype your system
 
