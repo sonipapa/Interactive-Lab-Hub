@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+<script src="https://cdn.jsdelivr.net/npm/vega@5"></script>
+<script src="https://cdn.jsdelivr.net/npm/vega-lite@5"></script>
+<script src="https://cdn.jsdelivr.net/npm/vega-embed@6"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/water.css@2/out/light.css">
+    <link rel="stylesheet" href="static/style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/3.1.1/socket.io.js"></script>
+    <title>Document</title>
+</head>
+<body>
+	<div id='btnPress' style="color:red;">
+<!--         <h1>{{ title }}</h1>
+        <h2>Button pressed:  {{ button }}</h2> -->
+    </div>
+    <br>
+	<button id = 'play'>Eavesdrop</button>
+    <audio id='mic' src="http://{{ hostname }}:8080" >
+        <!-- same here, the hostname of my pi is not ixe00, so I need to delete '.local' -->
+    </audio>
+        <br>
+            <br>
+    <label> Decision<br>
+        <button id='truth'>Truth</button>
+        <button id='lie'>Lie</button>
+    </label>
+    <br>
+    <label> Speak
+        <input type="text" id='wordsIn'>
+        <button id='send'>send</button>
+    </label>
+<!-- <script src="static/index.js"></script> -->
+<script>
+    const socket = io();
+    socket.on('connect', () => {
+    //   socket.onAny((event, ...args) => {
+    //   console.log(Date.now(),event, args);
+    // });
+    });
+
+    const mic = document.getElementById('mic');
+    const play = document.getElementById('play');
+    const wordsIn = document.getElementById('wordsIn');
+    const send = document.getElementById('send');
+
+    const src = mic.src
+    mic.src = ''
+
+    play.onclick = () => {
+      if(mic.paused) {
+      console.log('redo audio')
+      mic.src = src
+      mic.play()
+      play.innerText='Pause'
+      } else {
+        mic.pause()
+          mic.src = '';
+        play.innerText='Eavesdrop'
+      }
+      
+    }
+
+    send.onclick = () => {
+        if (wordsIn.value != ''){
+        socket.emit('question', wordsIn.value)
+        socket.emit('speak', wordsIn.value)}
+        wordsIn.value = ''
+    }
+    wordsIn.onkeyup = (e) => { if (e.keyCode === 13) { send.click(); } };
+
+    // Real-time button status update
+    document.addEventListener("DOMContentLoaded", function(event) {
+
+    const getSensorReading = function() {
+      fetch(`http://${location.host}/update`)  // send request to route /update
+        .then((resp) => resp.json())
+        .then(function(response) {
+          document.getElementById('btnPress').innerHTML =response.button;
+      });
+    }
+
+    getSensorReading();
+    setInterval(getSensorReading, 200);  //request for update every 1 second
+    });
+
+    const truth = document.getElementById('truth');
+    const lie = document.getElementById('lie');
+    lie.onclick = () => {
+        socket.emit('speak', lie.innerHTML+'. Electric shock loading')
+        socket.emit('tft-display',true)
+        // wordsIn.value = ''
+        // wordsIn.value = 'you lier'
+    }
+
+    truth.onclick = () => {
+        // wordsIn.value = ''
+        // wordsIn.value = 'you are honest'
+        socket.emit('speak', truth.innerHTML+'. You are honest')
+        socket.emit('tft-display',false)
+    
+    }
+    socket.on('disconnect', () => {
+    console.log('disconnect')
+    mic.src = ''
+
+    });
+</script>
+</body>
+</html>
