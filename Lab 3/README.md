@@ -102,7 +102,7 @@ The lie detector requires the partcipants to press the button and speak to the U
 
 ![controller.JPG](https://github.com/sonipapa/Interactive-Lab-Hub/blob/Spring2021/Lab%203/controller.JPG)
 
-On this controller, when the wizard clicks `Eavesdrop`, audio would be streamed from the Pi to my browser. When `Truth` is pressed, the participant could hear "*Truth. You are honest*" from the speaker and see the TFT screen lighted green with text "*You are honest :) Applause for you...*". When `Lie` is pressed, the participant could hear "*Lie. Electric shock loading*" from the speaker and see the TFT screen lighted red with text "*You are lying! Electric shock...*". Shown in this picture:
+In this controller, when the wizard clicks `Eavesdrop`, audio would be streamed from the Pi to my browser. When `Truth` is pressed, the participant could hear "*Truth. You are honest*" from the speaker and see the TFT screen lighted green with text "*You are honest :) Applause for you...*". When `Lie` is pressed, the participant could hear "*Lie. Electric shock loading*" from the speaker and see the TFT screen lighted red with text "*You are lying! Electric shock...*". Shown in this picture:
 
 ![screen_lie_truth.JPG](https://github.com/sonipapa/Interactive-Lab-Hub/blob/Spring2021/Lab%203/screen_lie_truth.JPG)
 
@@ -110,9 +110,11 @@ When the wizard types in some texts to the input field under "Speak" and clicks 
 
 ![screen_speak_question.JPG](https://github.com/sonipapa/Interactive-Lab-Hub/blob/Spring2021/Lab%203/screen_speak_question.JPG)
 
-The setup is demonstrated in this video:
+The setup is shown in this video:
 
 [![Video of lie detector setup](https://img.youtube.com/vi/VV2UhvGg2yQ/maxresdefault.jpg)](https://youtu.be/VV2UhvGg2yQ)
+
+(click the pic above to watch the video)
 
 
 The system allows the following two kinds of interaction:
@@ -122,7 +124,21 @@ The system allows the following two kinds of interaction:
 The participant presses the button before speaking, and presses it again after done speaking. When the participant presses the button for the first time, the wizard sees the red text on the browser and clicks `Eavesdrop` to start audio streaming from the Pi. When the participant is done speaking with button pressing, the wizard sees the red text on the browser again and clicks `Truth` or `Lie` to give participant the result of lie detection.
 
 **2. Let the participant answer a question & detect a lie**
+
 The wizard clicks `Eavesdrop` to start audio streaming from the Pi before the participant is ready. When the wizard hears the participant is ready from the browser, he/she types in the question and clicks `send`. The participant listens & reads the question, presses the button before speaking, and presses it again after done speaking. When the participant is done speaking with button pressing, the wizard sees the red text on the browser again and clicks `Truth` or `Lie` to give participant the result of lie detection.
+
+
+**Get it work:**
+
+The codes & files are in the folder `lie_detector`.
+
+To run the app
+
+```
+pi@yourHostname:~/Interactive-Lab-Hub/Lab 3/lie_detector $ python app.py
+```
+
+In the browser of a computer on the same network, navigate to http://yourHostname.local:5000/. My hostname is 192.168.31.240.
 
 
 ## Test the system
@@ -131,6 +147,11 @@ Try to get at least two people to interact with your system. (Ideally, you would
 A demo of testing the lie detector system is in this video:
 
 [![Video of lie detector demo](https://img.youtube.com/vi/aomxX3Do4NY/maxresdefault.jpg)](https://youtu.be/aomxX3Do4NY)
+
+(click the pic above to watch the video)
+
+
+
 
 Answer the following:
 
