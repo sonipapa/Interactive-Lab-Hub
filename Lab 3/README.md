@@ -186,5 +186,5 @@ The WoZ interactions provided me with a detailed blueprint for designing a more 
 
 ### How could you use your system to create a dataset of interaction? What other sensing modalities would make sense to capture?
 
-My system right now does not actually detect lies due to the simple sensor it's using, and it does not give electric shock when someone is lying. Upon adding camera to the system, the facial expression of the participants can be captured for lie detection. Heartrate sensor would also be a logical choice, as lying in nature is related to one's psychological movement which increases one's heartrate. I could also try to add a component to give the participant electric shock when he/she is detected lying (thought this sounds evil LOL). 
+My system right now does not actually detect lies due to the simple sensor it's using, and it does not give electric shock when someone is lying. Upon adding camera to the system, the facial expression of the participants can be captured for lie detection. Heartrate sensor would also be a logical choice, as lying in nature is related to one's psychological movement which increases one's heartrate. I could also try to add a component to give the participant electric shock when he/she is detected lying (though this sounds evil LOL). 
 
