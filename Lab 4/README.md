@@ -140,7 +140,7 @@ I designed a portable paper piano when user touches a certain key, a certain ton
 
 A huge cardboard was trimmed, folded and taped (using double-sided tape) as shown in the image below.
 
-![image partc_tape**](https://github.com/sonipapa/Interactive-Lab-Hub/blob/Spring2021/Lab%204/partc_tape.jpg)
+![image partc_tape](https://github.com/sonipapa/Interactive-Lab-Hub/blob/Spring2021/Lab%204/partc_tape.jpg)
 
 The dimension of the cardboard box was **300mm x 125mm x 100mm** (W x D x H).
 
@@ -210,12 +210,15 @@ Reiterating:
 1. Sketches/photos of device designs
 
 **Prototype design: **
+
 ![prototype.jpg](https://github.com/sonipapa/Interactive-Lab-Hub/blob/Spring2021/Lab%204/prototype.jpg)
 
 **Electronics: **
+
 ![box_open_inner_taped](https://github.com/sonipapa/Interactive-Lab-Hub/blob/Spring2021/Lab%204/box_open_inner_taped.jpg)
 
 **Details of the keys:**
+
 ![detail](https://github.com/sonipapa/Interactive-Lab-Hub/blob/Spring2021/Lab%204/detail.jpg)
 
 2. "Looks like" prototypes: show us what how the device should look, feel, sit, weigh, etc.
@@ -223,12 +226,15 @@ Reiterating:
 The device should look that it is made of cardboard because it's a paper piano. It would feel like paper when you touch the outer box & the keys. The size is relatively small (**300mm x 125mm x 100mm** - W x D x H) for it to be portable.
 
 **width:**
+
 ![dimension_width.jpg](https://github.com/sonipapa/Interactive-Lab-Hub/blob/Spring2021/Lab%204/dimension_width.jpg)
 
 **depth:**
+
 ![dimension_depth.jpg](https://github.com/sonipapa/Interactive-Lab-Hub/blob/Spring2021/Lab%204/dimension_depth.jpg)
 
 **height:**
+
 ![dimension_height.jpg](https://github.com/sonipapa/Interactive-Lab-Hub/blob/Spring2021/Lab%204/dimension_height.jpg)
 
 However, it shouldn't feel too light, because it needs hold some not-so-light electrical components like a speaker. The users could put it on a counter, on a desk, or even on their laps, so that they could practice piano everywhere they want.
