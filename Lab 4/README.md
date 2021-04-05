@@ -136,35 +136,39 @@ Make a paper display for your project that communicates the state of the Pi and 
 
 I designed a portable paper piano when user touches a certain key, a certain tone is played. This is designed for the Lingling's who are so talented in playing instruments and wanted to practice their piano skill every where (as we all know you can't carry piano like a violin)! It's like a real piano but the keys are flatted and it is made of paper. A capacitive sensor, copper wires, a speaker, and a rapsberry pi were needed for the electronis. Masking tape, cardboards, paper, double-sided tape, insulating tape, cutting knife, and a cutting board were needed for physically propotyping the piano.
 
-**prototype.jpg**
+![prototype.jpg](https://github.com/sonipapa/Interactive-Lab-Hub/blob/Spring2021/Lab%204/prototype.jpg)
 
 A huge cardboard was trimmed, folded and taped (using double-sided tape) as shown in the image below.
 
-**image partc_tape**
+![image partc_tape**](https://github.com/sonipapa/Interactive-Lab-Hub/blob/Spring2021/Lab%204/partc_tape.jpg)
 
 The dimension of the cardboard box was **300mm x 125mm x 100mm** (W x D x H).
 
-**image partc_dimension_whd**
+![partc_dimension_w](https://github.com/sonipapa/Interactive-Lab-Hub/blob/Spring2021/Lab%204/partc_dimension_w.jpg)
+
+![partc_dimension_d](https://github.com/sonipapa/Interactive-Lab-Hub/blob/Spring2021/Lab%204/partc_dimension_d.jpg)
+
+![partc_dimension_h](https://github.com/sonipapa/Interactive-Lab-Hub/blob/Spring2021/Lab%204/partc_dimension_h.jpg)
 
 The top board is not taped or glued, but instead fixed by inserting the side boards (attached to the top) to the two slits on the bottom. This way, I could make adjustment to the electronics hidden inside the box easily, by opening the top from unassembly the side boards.
 
-**image partc_slidein**
+![partc_slidein](https://github.com/sonipapa/Interactive-Lab-Hub/blob/Spring2021/Lab%204/partc_slidein.jpg)
 
 The electronics are connected as below. Since I'm outside of US, so I used copper wire to connect to the capacitive sensor instead of copper tape.
 
-**image elements**
+![elements](https://github.com/sonipapa/Interactive-Lab-Hub/blob/Spring2021/Lab%204/elements.jpg)
 
 Insulating tape was needed to wrap around the copper wires to prevent overlapping of the wires & hence shortening the circuit or interfering the actual interaction.
 
-**image insulating_tape**
+![insulating_tape](https://github.com/sonipapa/Interactive-Lab-Hub/blob/Spring2021/Lab%204/insulating_tape.jpg)
 
 The 12 wires from 0 to 11 are taped using masking tape onto the keyboard indicating the 12 keys from C to B. The wires and the paper keyboard were mounted/fixed onto the top board using tapes.
 
-**image box_open_inner_taped**
+![box_open_inner_taped.jpg](https://github.com/sonipapa/Interactive-Lab-Hub/blob/Spring2021/Lab%204/box_open_inner_taped.jpg)
 
 The propotype is now ready to work on, by insert the side boards back into the slits.
 
-**image box_assembly**
+![box_assembly](https://github.com/sonipapa/Interactive-Lab-Hub/blob/Spring2021/Lab%204/box_assembly.jpg)
 
 **b. Make a video of your paper display in action.**
 
@@ -205,15 +209,29 @@ Reiterating:
 ### Deliverables for this lab are: 
 1. Sketches/photos of device designs
 
-**prototype.jpg**
+**Prototype design: **
+![prototype.jpg](https://github.com/sonipapa/Interactive-Lab-Hub/blob/Spring2021/Lab%204/prototype.jpg)
 
-**box_open_inner_taped**
+**Electronics: **
+![box_open_inner_taped](https://github.com/sonipapa/Interactive-Lab-Hub/blob/Spring2021/Lab%204/box_open_inner_taped.jpg)
 
-**detail**
+**Details of the keys:**
+![detail](https://github.com/sonipapa/Interactive-Lab-Hub/blob/Spring2021/Lab%204/detail.jpg)
 
 2. "Looks like" prototypes: show us what how the device should look, feel, sit, weigh, etc.
 
-The device should look that it is made of cardboard because it's a paper piano. It would feel like paper when you touch the outer box & the keys. The size is relatively small (**300mm x 125mm x 100mm** - W x D x H) for it to be portable. However, it shouldn't feel too light, because it needs hold some not-so-light electrical components like a speaker. The users could put it on a counter, on a desk, or even on their laps, so that they could practice piano everywhere they want.
+The device should look that it is made of cardboard because it's a paper piano. It would feel like paper when you touch the outer box & the keys. The size is relatively small (**300mm x 125mm x 100mm** - W x D x H) for it to be portable.
+
+**width:**
+![dimension_width.jpg](https://github.com/sonipapa/Interactive-Lab-Hub/blob/Spring2021/Lab%204/dimension_width.jpg)
+
+**depth:**
+![dimension_depth.jpg](https://github.com/sonipapa/Interactive-Lab-Hub/blob/Spring2021/Lab%204/dimension_depth.jpg)
+
+**height:**
+![dimension_height.jpg](https://github.com/sonipapa/Interactive-Lab-Hub/blob/Spring2021/Lab%204/dimension_height.jpg)
+
+However, it shouldn't feel too light, because it needs hold some not-so-light electrical components like a speaker. The users could put it on a counter, on a desk, or even on their laps, so that they could practice piano everywhere they want.
 
 3. "Works like" prototypes: show us what the device can do
 
