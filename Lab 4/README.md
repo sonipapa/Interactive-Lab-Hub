@@ -209,11 +209,11 @@ Reiterating:
 ### Deliverables for this lab are: 
 1. Sketches/photos of device designs
 
-**Prototype design: **
+**Prototype design:**
 
 ![prototype.jpg](https://github.com/sonipapa/Interactive-Lab-Hub/blob/Spring2021/Lab%204/prototype.jpg)
 
-**Electronics: **
+**Electronics:**
 
 ![box_open_inner_taped](https://github.com/sonipapa/Interactive-Lab-Hub/blob/Spring2021/Lab%204/box_open_inner_taped.jpg)
 
