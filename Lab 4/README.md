@@ -136,39 +136,39 @@ Make a paper display for your project that communicates the state of the Pi and 
 
 I designed a portable paper piano when user touches a certain key, a certain tone is played. This is designed for the Lingling's who are so talented in playing instruments and wanted to practice their piano skill every where (as we all know you can't carry piano like a violin)! It's like a real piano but the keys are flatted and it is made of paper. A capacitive sensor, copper wires, a speaker, and a rapsberry pi were needed for the electronis. Masking tape, cardboards, paper, double-sided tape, insulating tape, cutting knife, and a cutting board were needed for physically propotyping the piano.
 
-![prototype.jpg](https://github.com/sonipapa/Interactive-Lab-Hub/blob/Spring2021/Lab%204/prototype.jpg)
+![prototype.jpg](https://github.com/sonipapa/Interactive-Lab-Hub/blob/Spring2021/Lab%204/prototype.JPG)
 
 A huge cardboard was trimmed, folded and taped (using double-sided tape) as shown in the image below.
 
-![image partc_tape](https://github.com/sonipapa/Interactive-Lab-Hub/blob/Spring2021/Lab%204/partc_tape.jpg)
+![image partc_tape](https://github.com/sonipapa/Interactive-Lab-Hub/blob/Spring2021/Lab%204/partc_tape.JPG)
 
 The dimension of the cardboard box was **300mm x 125mm x 100mm** (W x D x H).
 
-![partc_dimension_w](https://github.com/sonipapa/Interactive-Lab-Hub/blob/Spring2021/Lab%204/partc_dimension_w.jpg)
+![partc_dimension_w](https://github.com/sonipapa/Interactive-Lab-Hub/blob/Spring2021/Lab%204/partc_dimension_w.JPG)
 
-![partc_dimension_d](https://github.com/sonipapa/Interactive-Lab-Hub/blob/Spring2021/Lab%204/partc_dimension_d.jpg)
+![partc_dimension_d](https://github.com/sonipapa/Interactive-Lab-Hub/blob/Spring2021/Lab%204/partc_dimension_d.JPG)
 
-![partc_dimension_h](https://github.com/sonipapa/Interactive-Lab-Hub/blob/Spring2021/Lab%204/partc_dimension_h.jpg)
+![partc_dimension_h](https://github.com/sonipapa/Interactive-Lab-Hub/blob/Spring2021/Lab%204/partc_dimension_h.JPG)
 
 The top board is not taped or glued, but instead fixed by inserting the side boards (attached to the top) to the two slits on the bottom. This way, I could make adjustment to the electronics hidden inside the box easily, by opening the top from unassembly the side boards.
 
-![partc_slidein](https://github.com/sonipapa/Interactive-Lab-Hub/blob/Spring2021/Lab%204/partc_slidein.jpg)
+![partc_slidein](https://github.com/sonipapa/Interactive-Lab-Hub/blob/Spring2021/Lab%204/partc_slidein.JPG)
 
 The electronics are connected as below. Since I'm outside of US, so I used copper wire to connect to the capacitive sensor instead of copper tape.
 
-![elements](https://github.com/sonipapa/Interactive-Lab-Hub/blob/Spring2021/Lab%204/elements.jpg)
+![elements](https://github.com/sonipapa/Interactive-Lab-Hub/blob/Spring2021/Lab%204/elements.JPG)
 
 Insulating tape was needed to wrap around the copper wires to prevent overlapping of the wires & hence shortening the circuit or interfering the actual interaction.
 
-![insulating_tape](https://github.com/sonipapa/Interactive-Lab-Hub/blob/Spring2021/Lab%204/insulating_tape.jpg)
+![insulating_tape](https://github.com/sonipapa/Interactive-Lab-Hub/blob/Spring2021/Lab%204/insulating_tape.JPG)
 
 The 12 wires from 0 to 11 are taped using masking tape onto the keyboard indicating the 12 keys from C to B. The wires and the paper keyboard were mounted/fixed onto the top board using tapes.
 
-![box_open_inner_taped.jpg](https://github.com/sonipapa/Interactive-Lab-Hub/blob/Spring2021/Lab%204/box_open_inner_taped.jpg)
+![box_open_inner_taped.jpg](https://github.com/sonipapa/Interactive-Lab-Hub/blob/Spring2021/Lab%204/box_open_inner_taped.JPG)
 
 The propotype is now ready to work on, by insert the side boards back into the slits.
 
-![box_assembly](https://github.com/sonipapa/Interactive-Lab-Hub/blob/Spring2021/Lab%204/box_assembly.jpg)
+![box_assembly](https://github.com/sonipapa/Interactive-Lab-Hub/blob/Spring2021/Lab%204/box_assembly.JPG)
 
 **b. Make a video of your paper display in action.**
 
@@ -211,15 +211,15 @@ Reiterating:
 
 **Prototype design:**
 
-![prototype.jpg](https://github.com/sonipapa/Interactive-Lab-Hub/blob/Spring2021/Lab%204/prototype.jpg)
+![prototype.jpg](https://github.com/sonipapa/Interactive-Lab-Hub/blob/Spring2021/Lab%204/prototype.JPG)
 
 **Electronics:**
 
-![box_open_inner_taped](https://github.com/sonipapa/Interactive-Lab-Hub/blob/Spring2021/Lab%204/box_open_inner_taped.jpg)
+![box_open_inner_taped](https://github.com/sonipapa/Interactive-Lab-Hub/blob/Spring2021/Lab%204/box_open_inner_taped.JPG)
 
 **Details of the keys:**
 
-![detail](https://github.com/sonipapa/Interactive-Lab-Hub/blob/Spring2021/Lab%204/detail.jpg)
+![detail](https://github.com/sonipapa/Interactive-Lab-Hub/blob/Spring2021/Lab%204/detail.JPG)
 
 2. "Looks like" prototypes: show us what how the device should look, feel, sit, weigh, etc.
 
@@ -227,15 +227,15 @@ The device should look that it is made of cardboard because it's a paper piano. 
 
 **width:**
 
-![dimension_width.jpg](https://github.com/sonipapa/Interactive-Lab-Hub/blob/Spring2021/Lab%204/dimension_width.jpg)
+![dimension_width.jpg](https://github.com/sonipapa/Interactive-Lab-Hub/blob/Spring2021/Lab%204/dimension_width.JPG)
 
 **depth:**
 
-![dimension_depth.jpg](https://github.com/sonipapa/Interactive-Lab-Hub/blob/Spring2021/Lab%204/dimension_depth.jpg)
+![dimension_depth.jpg](https://github.com/sonipapa/Interactive-Lab-Hub/blob/Spring2021/Lab%204/dimension_depth.JPG)
 
 **height:**
 
-![dimension_height.jpg](https://github.com/sonipapa/Interactive-Lab-Hub/blob/Spring2021/Lab%204/dimension_height.jpg)
+![dimension_height.jpg](https://github.com/sonipapa/Interactive-Lab-Hub/blob/Spring2021/Lab%204/dimension_height.JPG)
 
 However, it shouldn't feel too light, because it needs hold some not-so-light electrical components like a speaker. The users could put it on a counter, on a desk, or even on their laps, so that they could practice piano everywhere they want.
 
