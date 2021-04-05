@@ -134,9 +134,48 @@ Make a paper display for your project that communicates the state of the Pi and 
  
 **a. Document the design for your paper display.** (e.g. if you had to make it again from scratch, what information would you need?). Include interim iterations (or at least tell us about them).
 
+I designed a portable paper piano when user touches a certain key, a certain tone is played. This is designed for the Lingling's who are so talented in playing instruments and wanted to practice their piano skill every where (as we all know you can't carry piano like a violin)! It's like a real piano but the keys are flatted and it is made of paper. A capacitive sensor, copper wires, a speaker, and a rapsberry pi were needed for the electronis. Masking tape, cardboards, paper, double-sided tape, insulating tape, cutting knife, and a cutting board were needed for physically propotyping the piano.
+
+**prototype.jpg**
+
+A huge cardboard was trimmed, folded and taped (using double-sided tape) as shown in the image below.
+
+**image partc_tape**
+
+The dimension of the cardboard box was **300mm x 125mm x 100mm** (W x D x H).
+
+**image partc_dimension_whd**
+
+The top board is not taped or glued, but instead fixed by inserting the side boards (attached to the top) to the two slits on the bottom. This way, I could make adjustment to the electronics hidden inside the box easily, by opening the top from unassembly the side boards.
+
+**image partc_slidein**
+
+The electronics are connected as below. Since I'm outside of US, so I used copper wire to connect to the capacitive sensor instead of copper tape.
+
+**image elements**
+
+Insulating tape was needed to wrap around the copper wires to prevent overlapping of the wires & hence shortening the circuit or interfering the actual interaction.
+
+**image insulating_tape**
+
+The 12 wires from 0 to 11 are taped using masking tape onto the keyboard indicating the 12 keys from C to B. The wires and the paper keyboard were mounted/fixed onto the top board using tapes.
+
+**image box_open_inner_taped**
+
+The propotype is now ready to work on, by insert the side boards back into the slits.
+
+**image box_assembly**
+
 **b. Make a video of your paper display in action.**
 
+Here, I didn't actually use the speaker to play sound because this is just the initial design of the prototype appearance. Instead, I just have the screen showing which key is touched. Will update the sound functionality in part 2.
+
+[![Video of part C](https://img.youtube.com/vi/ePudRjJ30OQ/maxresdefault.jpg)](https://youtu.be/ePudRjJ30OQ)
+(click the pic above to watch the video)
+
 **c. Explain the rationale for the design.** (e.g. Does it need to be a certain size or form or need to be able to be seen from a certain distance?)
+
+The design has to resemble a piano, at least for the keys, because it meant to be played by people like a real piano. However, the keyboard was design to be flat because it is a paper piano and meant to be portable. The dimension was set to be 300mm x 125mm x 100mm in order to hold all the electrical components (especially the speaker is quite big) with a minimized size.
 
 ### Part D
 ### Materiality
@@ -145,9 +184,18 @@ Make a paper display for your project that communicates the state of the Pi and 
 
 Design a system with the Pi and anything from your kit with a focus on form, and materiality. The "stuff" that enclose the system should be informed by the desired interaction. What would a computer made of rocks be like? How would an ipod made of grass behave? Would a roomba made of gold clean your floor any differently?
 
+The system is my design in part C - the portable paper piano.
+
 **a. document the material prototype.** Include candidates that were considered even if they were set aside later.
 
+When trying to connect the capacitive sensor to the key, I first tried to use the alligator clips to have one side clip on the sensor and one on the key for the user to interact with. I then tried to fold aluminum foil to be a thin thread, having one side wrapping around the holes of the sensor and on side taped to the keys. In the end, the copper wire just worked perfect.
+
+Cardboard and medium-hard plastics (like the plastic of a binder) were both considered as candidates for the outer box.
+
 **b. explain the selection.**
+The alligator clips didn't work out as the they are just way too huge in size. Aluminum foil is just too brittle that it breaks easily which does not fulfill the requirement of the durability of a portable piano. The copper wire, on the other hand, provided ideal durability and conductivity, but it just needed insulating tapes to prevent from short circuiting.
+
+Cardboard wins out medium-hard plastics because cardboard is easier to cut, fold and taped, while plastics is sometimes too smooth to be taped.
 
 ### Part 2.
 
@@ -156,9 +204,29 @@ Following exploration and reflection from Part 1, complete the "looks like," "wo
 Reiterating:
 ### Deliverables for this lab are: 
 1. Sketches/photos of device designs
-1. "Looks like" prototypes: show us what how the device should look, feel, sit, weigh, etc.
+
+**prototype.jpg**
+
+**box_open_inner_taped**
+
+**detail**
+
+2. "Looks like" prototypes: show us what how the device should look, feel, sit, weigh, etc.
+
+The device should look that it is made of cardboard because it's a paper piano. It would feel like paper when you touch the outer box & the keys. The size is relatively small (**300mm x 125mm x 100mm** - W x D x H) for it to be portable. However, it shouldn't feel too light, because it needs hold some not-so-light electrical components like a speaker. The users could put it on a counter, on a desk, or even on their laps, so that they could practice piano everywhere they want.
+
 3. "Works like" prototypes: show us what the device can do
+
+The device incorporates a capacitive sensor and a speaker. When someone (an alive person who conducts electricity) touches a key, which is connected to one of the keys on the capacitive sensor, a pitch/sound corresponds to that key will be played by the speaker as if a real piano is played.
+
 4. "Acts like" prototypes: videos/storyboards/other means of showing how a person would interact with the device
+
+Please check the vid below for "Acts like".
+
+[![Video of part 2](https://img.youtube.com/vi/bCh29VXPYm4/maxresdefault.jpg)](https://youtu.be/bCh29VXPYm4)
+(click the pic above to watch the video)
+
+
 5. Submit these in the lab 4 folder of your class [Github page], either as links or uploaded files. Each group member should post their own copy of the work to their own Lab Hub, even if some of the work is the same for each person in the group.
 
 
