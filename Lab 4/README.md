@@ -86,6 +86,9 @@ Banana 6 touched!
 
 *\*Some students have noted that their banana's look noticeably different from the ones presented in this demo. We firmly reject the accusation that these are not in fact banana's but Twizzlers™. Due to the challenges of remote teaching we cannot debug banana's at this time. We suggest you bring these issues up with the university or your local produce representative*
 
+[![Video of part A](https://img.youtube.com/vi/Dysq62ehmmI/maxresdefault.jpg)](https://youtu.be/Dysq62ehmmI)
+(click the pic above to watch the video)
+
 ### Part B
 ### OLED screen
 
@@ -96,7 +99,8 @@ We just received some of the small oled screens that we had coped to include in 
 <img src="https://cdn.discordapp.com/attachments/679466987314741338/823354087105101854/PXL_20210322_003033073.jpg" height="200">
 </p>
 
-
+[![Video of part B](https://img.youtube.com/vi/lP0snvOK2e8/maxresdefault.jpg)](https://youtu.be/lP0snvOK2e8)
+(click the pic above to watch the video)
 
 ### Part C
 ### Paper Display
