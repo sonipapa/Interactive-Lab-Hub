@@ -83,14 +83,36 @@ Glitch is a great tool for prototyping sites, interfaces and web-apps that's wor
 
 ## Make it your own
 
+I worked this lab with Panda Xu and Zhonghao Zhan.
+
 Find at least one class (more are okay) partner, and design a distributed application together. 
 
 **1. Explain your design** For example, if you made a remote controlled banana piano, explain why anyone would want such a thing.
 
 **2. Diagram the architecture of the system.** Be clear to document where input, output and computation occur, and label all parts and connections. For example, where is the banana, who is the banana player, where does the sound get played, and who is listening to the banana music?
 
+![architecture](https://github.com/sonipapa/Interactive-Lab-Hub/blob/Spring2021/Lab%206/report_imgs/diagram.jpg)
+
 **3. Build a working prototype of the system.** Do think about the user interface: if someone encountered these bananas, would they know how to interact with them? Should they know what to expect?
 
+Food Thief
+![cap_cam](https://github.com/sonipapa/Interactive-Lab-Hub/blob/Spring2021/Lab%206/report_imgs/cap_cam.jpg)
+
+![cap_setup](https://github.com/sonipapa/Interactive-Lab-Hub/blob/Spring2021/Lab%206/report_imgs/cap_setup.jpg)
+
+Food Owner
+![control_setup](https://github.com/sonipapa/Interactive-Lab-Hub/blob/Spring2021/Lab%206/report_imgs/control_setup.jpg)
+
+Screenshot of the streamed video of the thief on food owner's monitor
+![streaming](https://github.com/sonipapa/Interactive-Lab-Hub/blob/Spring2021/Lab%206/report_imgs/streaming.png)
+
+We followed the instruction from [Video Streaming with Raspberry Pi Camera](https://randomnerdtutorials.com/video-streaming-with-raspberry-pi-camera/) for the food owner to actually see what is going on with his/her food (to see who is the food thief) after getting the alert from the speaker.
+
 **4. Document the working prototype in use.** It may be helpful to record a Zoom session where you should the input in one location clearly causing response in another location.
+
+Video Demo
+
+[![Video demo](https://img.youtube.com/vi/7Vd0PtH7olc/maxresdefault.jpg)](https://youtu.be/7Vd0PtH7olc)
+(click to view the vid)
 
 **5. BONUS (Wendy didn't approve this so you should probably ignore it)** get the whole class to run your code and make your distributed system BIGGER.
