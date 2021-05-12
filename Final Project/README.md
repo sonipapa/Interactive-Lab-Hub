@@ -17,14 +17,26 @@ Final Project Documentation due - May 19
 The goal of this final project is for you to have a fully functioning and well-designed interactive device of your own design.
  
 ## Description
-Your project is to design and build an interactive device to suit a specific application of your choosing. 
+
+Project: **AC Gesture Control in a Car**
 
 ## Deliverables
 
 1. Documentation of design process
 2. Archive of all code, design patterns, etc. used in the final design. (As with labs, the standard should be that the documentation would allow you to recreate your project if you woke up with amnesia.)
-3. Video of someone using your project (or as safe a version of that as can be managed given social distancing)
-4. Reflections on process (What have you learned or wish you knew at the start?)
+
+Code:
+
+Designed Interaction:
+
+Prototype Assembly:
+
+4. Video of someone using your project (or as safe a version of that as can be managed given social distancing)
+
+[![Video demo](https://img.youtube.com/vi/IOoE608VBzU/maxresdefault.jpg)](https://youtu.be/IOoE608VBzU)
+(click to view the vid)
+
+5. Reflections on process (What have you learned or wish you knew at the start?)
 
 
 ## Teams
